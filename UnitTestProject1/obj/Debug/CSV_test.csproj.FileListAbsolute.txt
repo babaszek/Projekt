@@ -1,0 +1,8 @@
+C:\Users\lapti\Documents\Visual Studio 2015\Projects\programowanie\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\lapti\Documents\Visual Studio 2015\Projects\programowanie\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\lapti\Documents\Visual Studio 2015\Projects\programowanie\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\lapti\Documents\Visual Studio 2015\Projects\programowanie\UnitTestProject1\bin\Debug\programowanie.exe
+C:\Users\lapti\Documents\Visual Studio 2015\Projects\programowanie\UnitTestProject1\bin\Debug\programowanie.pdb
+C:\Users\lapti\Documents\Visual Studio 2015\Projects\programowanie\UnitTestProject1\obj\Debug\CSV_test.csprojResolveAssemblyReference.cache
+C:\Users\lapti\Documents\Visual Studio 2015\Projects\programowanie\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\lapti\Documents\Visual Studio 2015\Projects\programowanie\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

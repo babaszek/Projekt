@@ -30,7 +30,6 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.plikToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nowyProduktToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zakończProgramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bazaDanychToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.załadujPonownieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,6 +47,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.oProgramieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -67,18 +67,10 @@
             // plikToolStripMenuItem
             // 
             this.plikToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nowyProduktToolStripMenuItem,
             this.zakończProgramToolStripMenuItem});
             this.plikToolStripMenuItem.Name = "plikToolStripMenuItem";
             this.plikToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.plikToolStripMenuItem.Text = "Plik";
-            // 
-            // nowyProduktToolStripMenuItem
-            // 
-            this.nowyProduktToolStripMenuItem.Name = "nowyProduktToolStripMenuItem";
-            this.nowyProduktToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.nowyProduktToolStripMenuItem.Size = new System.Drawing.Size(240, 22);
-            this.nowyProduktToolStripMenuItem.Text = "Nowy produkt";
             // 
             // zakończProgramToolStripMenuItem
             // 
@@ -101,19 +93,21 @@
             // załadujPonownieToolStripMenuItem
             // 
             this.załadujPonownieToolStripMenuItem.Name = "załadujPonownieToolStripMenuItem";
-            this.załadujPonownieToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.załadujPonownieToolStripMenuItem.Text = "Załaduj ponownie";
+            this.załadujPonownieToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.załadujPonownieToolStripMenuItem.Text = "Załaduj";
             this.załadujPonownieToolStripMenuItem.Click += new System.EventHandler(this.załadujPonownieToolStripMenuItem_Click);
             // 
             // zapiszToolStripMenuItem
             // 
             this.zapiszToolStripMenuItem.Name = "zapiszToolStripMenuItem";
-            this.zapiszToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.zapiszToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.zapiszToolStripMenuItem.Text = "Zapisz";
             this.zapiszToolStripMenuItem.Click += new System.EventHandler(this.zapiszToolStripMenuItem_Click);
             // 
             // pomocToolStripMenuItem
             // 
+            this.pomocToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.oProgramieToolStripMenuItem});
             this.pomocToolStripMenuItem.Name = "pomocToolStripMenuItem";
             this.pomocToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.pomocToolStripMenuItem.Text = "Pomoc";
@@ -221,6 +215,13 @@
             this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             this.textBox5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox5_KeyDown);
             // 
+            // oProgramieToolStripMenuItem
+            // 
+            this.oProgramieToolStripMenuItem.Name = "oProgramieToolStripMenuItem";
+            this.oProgramieToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.oProgramieToolStripMenuItem.Text = "O programie";
+            this.oProgramieToolStripMenuItem.Click += new System.EventHandler(this.oProgramieToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -259,9 +260,8 @@
         private System.Windows.Forms.ToolStripMenuItem załadujPonownieToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem zapiszToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pomocToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nowyProduktToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem zakończProgramToolStripMenuItem;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        public  System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox1;
@@ -273,6 +273,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.ToolStripMenuItem oProgramieToolStripMenuItem;
     }
 }
 

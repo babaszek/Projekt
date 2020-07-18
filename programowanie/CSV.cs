@@ -18,7 +18,8 @@ namespace programowanie.Klasy
    public class CSV // : System.Windows.Forms.Form
     {
         private char separator = char.Parse(";");
-        public string plik_bazy = "baza.csv";
+        //public string plik_bazy = "baza.csv";
+        public string plik_bazy = @"C:\Users\lapti\Documents\Visual Studio 2015\Projects\programowanie\programowanie\bin\Debug\baza.csv";
         
         /// <summary>
         /// A method that test if CSV file exists
@@ -77,7 +78,6 @@ namespace programowanie.Klasy
         /// <param name="dataGridView1">dataGridView1 is a grid representing data.</param>
         public void writeCSV(System.Windows.Forms.DataGridView dataGridView1)
         {
-            //test to see if the DataGridView has any rows
             if (dataGridView1.RowCount > 0)
             {
                 string value = "";
@@ -165,7 +165,7 @@ namespace programowanie.Klasy
                 lap = string.Format(lap, text);
                 //MessageBox.Show(string.Format(string.Join(lacznik, la), text));
                 // (dataGridView1.DataSource as DataTable).DefaultView.RowFilter = string.Format(string.Join(lacznik, la), text);
-                MessageBox.Show(lap);
+               // MessageBox.Show(lap);
                 (dataGridView1.DataSource as DataTable).DefaultView.RowFilter = string.Format(lap);
             }//if 
         }//search

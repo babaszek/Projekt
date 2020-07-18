@@ -7,13 +7,3 @@ c:\users\lapti\documents\visual studio 2015\Projects\programowanie\programowanie
 c:\users\lapti\documents\visual studio 2015\Projects\programowanie\programowanie\obj\Debug\programowanie.csproj.GenerateResource.Cache
 c:\users\lapti\documents\visual studio 2015\Projects\programowanie\programowanie\obj\Debug\programowanie.exe
 c:\users\lapti\documents\visual studio 2015\Projects\programowanie\programowanie\obj\Debug\programowanie.pdb
-E:\Studia\CAŁY PROEKT POROGRAMOWANIE\programowanie\programowanie\bin\Debug\programowanie.exe.config
-E:\Studia\CAŁY PROEKT POROGRAMOWANIE\programowanie\programowanie\bin\Debug\programowanie.exe
-E:\Studia\CAŁY PROEKT POROGRAMOWANIE\programowanie\programowanie\bin\Debug\programowanie.pdb
-E:\Studia\CAŁY PROEKT POROGRAMOWANIE\programowanie\programowanie\obj\Debug\programowanie.csprojAssemblyReference.cache
-E:\Studia\CAŁY PROEKT POROGRAMOWANIE\programowanie\programowanie\obj\Debug\programowanie.Form1.resources
-E:\Studia\CAŁY PROEKT POROGRAMOWANIE\programowanie\programowanie\obj\Debug\programowanie.Properties.Resources.resources
-E:\Studia\CAŁY PROEKT POROGRAMOWANIE\programowanie\programowanie\obj\Debug\programowanie.csproj.GenerateResource.cache
-E:\Studia\CAŁY PROEKT POROGRAMOWANIE\programowanie\programowanie\obj\Debug\programowanie.csproj.CoreCompileInputs.cache
-E:\Studia\CAŁY PROEKT POROGRAMOWANIE\programowanie\programowanie\obj\Debug\programowanie.exe
-E:\Studia\CAŁY PROEKT POROGRAMOWANIE\programowanie\programowanie\obj\Debug\programowanie.pdb

@@ -14,9 +14,9 @@ namespace programowanieTest
         [TestMethod]
         public void check_db_file()
         {
-                // arrange
+            // arrange
             CSV l = new CSV();
-            bool expected = true;
+            bool expected = false;
             // act
             bool r=CSV.findCSV(l.plik_bazy);
             // assert

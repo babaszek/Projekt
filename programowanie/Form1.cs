@@ -79,9 +79,14 @@ namespace programowanie
 
         private void button2_Click(object sender, EventArgs e)
         {
-            programowanie.Klasy.CSV C = new programowanie.Klasy.CSV();
-            C.search(dataGridView1, textBox5.Text);
-        
+           // MessageBox.Show(textBox5.Text.Length.ToString());
+            if (textBox5.Text.Length > 0)
+            {
+                programowanie.Klasy.CSV C = new programowanie.Klasy.CSV();
+                C.search(dataGridView1, textBox5.Text);
+
+            }
+
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
@@ -101,6 +106,11 @@ namespace programowanie
         private void zakończProgramToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void oProgramieToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Projekt: Rafał Wiśniewski & Krzyś Babiuch");
         }
     }
 }

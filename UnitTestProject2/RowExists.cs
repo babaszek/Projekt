@@ -10,7 +10,7 @@ namespace programowanie
     /// Unit test of the CSV method. The purpose of the test is to determine if there is any data in dataviewgrid.
     /// </summary>
     [TestClass]
-    public class grid_test 
+    public class grid_test : programowanie.Form1 
     {
        
         [TestMethod]
@@ -18,11 +18,16 @@ namespace programowanie
         {
             // arrange
             CSV l = new CSV();
-           // bool expected = true;
+            bool expected = true;
+            var Forma1 = new Form1();
+            
+            Forma1.dataGridView1.Columns.Add("Column", "Test");
+            Forma1.dataGridView1.Rows.Add("test");
+
             // act
-            //bool r = CSV.read_data(Form1.dataGridView1);
+            bool r = CSV.read_data(Forma1.dataGridView1);
             // assert
-            //Assert.AreEqual(expected, r, "Data not found");
+            Assert.AreEqual(expected, r, "Data not found");
         }
     }
 }

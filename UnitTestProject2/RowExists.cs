@@ -18,11 +18,11 @@ namespace programowanie
         {
             // arrange
             CSV l = new CSV();
-            bool expected = true;
+            bool expected = false;
             var Forma1 = new Form1();
             
-            Forma1.dataGridView1.Columns.Add("Column", "Test");
-            Forma1.dataGridView1.Rows.Add("test");
+           // Forma1.dataGridView1.Columns.Add("Column", "Test");
+           // Forma1.dataGridView1.Rows.Add("test");
 
             // act
             bool r = CSV.read_data(Forma1.dataGridView1);

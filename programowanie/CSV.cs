@@ -20,11 +20,12 @@ namespace programowanie.Klasy
         private char separator = char.Parse(";");
         //public string plik_bazy = "baza.csv";
         public string plik_bazy = @"C:\Users\lapti\Documents\Visual Studio 2015\Projects\programowanie\programowanie\bin\Debug\baza.csv";
-        
+
         /// <summary>
         /// A method that test if CSV file exists
         /// </summary>
         /// <param name="plik_bazy">plik_bazy is a file with data.</param>
+        /// <returns>Return true if file exists, false if not</returns>
         public static bool findCSV(string plik_bazy)
         {
             return File.Exists(plik_bazy) ? true : false;
@@ -34,6 +35,7 @@ namespace programowanie.Klasy
         /// A method that test if CSV file exists
         /// </summary>
         /// <param name="plik_bazy">plik_bazy is a file with data.</param>
+        /// <returns>Return true if data grid have data, false if not</returns>
         public static bool read_data(System.Windows.Forms.DataGridView dataGridView1)
         {
             return (dataGridView1.RowCount > 0) ? true : false;
